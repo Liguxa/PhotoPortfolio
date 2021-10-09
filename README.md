@@ -3,7 +3,9 @@ My first project
 
 
 ## Plan
-* Markup header
-* Create sidebar
-* Create footer
-* Main content grid
+
+1. Make a skeleton
+2. Markup header 
+3. Create sidebar 
+4. Create footer 
+5. Main content grid
