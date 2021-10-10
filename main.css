@@ -5,8 +5,22 @@
 .header {
     width: 100%;
     background-color: aliceblue;
-    height: 50px;
+    height: 15px;
     margin-bottom: 10px;
+    font-size: 10px;
+    text-align: center;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 5px;
+    border-radius: 1px;
 }
 
 img {
@@ -14,12 +28,28 @@ img {
     width: 35px;
     top: 10px;
     right: 100px;
+    font-weight: bold;
 }
-
-.sidebar {
+.menu {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    font-size: 25px;
+    margin: 0 auto;
+}
+#sidebar {
     background-color: aliceblue;
+    margin-top: 10px;
     margin-right: 10px;
+    padding: 0 10px;
     width: 200px;
     height: 400px;
     float: left;
 }
+
+.content {
+    margin-left: 130px;
+    padding: 10px;
+    text-align: center;
+}
+
