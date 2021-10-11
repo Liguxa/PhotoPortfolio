@@ -10,3 +10,4 @@ My first project
 4. Create footer 
 5. Main content grid
 6. Change a CSS file
+7. Add some photos
