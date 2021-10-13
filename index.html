@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,16 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Anna's photos</title>
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 <body>
-    <nav class="header">
-         <a href="#"><img src="liguxa.png" alt="frog"/></a>
-        <nav class="menu">
+        <div class="header">
+            <nav class="menu">
         <a href="#">Upload</a>
         <a href="#">Settings</a>
         <a href="#">Account</a>
         </nav>
-    </nav>
+              <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
+                  <img src="/annaFirstProject/liguxa.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
+              </a>
+        </div>
      <div id="navsidebar">
         <nav id="sidebar">
             <p><a href="#"><span></span>Photo</a></p>
@@ -26,15 +30,25 @@
             <p><a href="#"><span></span>Bin</a></p>
         </nav>
           </div>
-    <div class="content">
-        <p>Today</p>
-        <p>Yesterday</p>
-        <p>Week ago</p>
-        <p>2 Weeks ago</p>
-        <p>September</p>
-    </div>
-    <div class="footer">
 
+    <div class="content">
+        <div class="w3-container">
+               <div class="w3-third w3-container w3-margin-bottom">
+                   <p><b>Today</b></p>
+      <img src="/annaFirstProject/rio.jpg" alt="Rio" class="w3-hover-opacity">
+                          </div>
+      <img src="/annaFirstProject/valetta.jpg" alt="Valetta"  class="w3-hover-opacity">
+             </div>
     </div>
-</body>
+         <img src="/annaFirstProject/barcelona.jpg" alt="Barcelona"  class="w3-hover-opacity">
+
+        <!--                <p>Yesterday</p>-->
+<!--                <p>Week ago</p>-->
+<!--                <p>2 Weeks ago</p>-->
+<!--                <p>September</p>-->
+<!--            </div>-->
+    <div class="footer">
+      </div>
+  </body>
 </html>
+

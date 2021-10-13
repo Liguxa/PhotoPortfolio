@@ -1,16 +1,16 @@
-.body {
-    font-family:"sans-serif";
+body,h1,h2,h3,h4,h5,h6 {
+    font-family: "Montserrat", sans-serif;
 }
 
 .header {
     width: 100%;
     background-color: aliceblue;
-    height: 15px;
+    height: 40px;
     margin-bottom: 10px;
     font-size: 10px;
     text-align: center;
-    overflow: hidden;
-    padding: 20px 10px;
+    /*overflow: hidden;*/
+    /*padding: 20px 10px;*/
 }
 .header a {
     float: left;
@@ -19,17 +19,22 @@
     padding: 10px;
     text-decoration: none;
     font-size: 18px;
-    line-height: 5px;
     border-radius: 1px;
 }
 
-img {
-    position: absolute;
-    width: 35px;
-    top: 10px;
-    right: 100px;
-    font-weight: bold;
+#sidebar {
+    padding: 64px;
 }
+
+.login {
+  }
+/*img {*/
+/*    width: 700px;*/
+/*    height: 500px;*/
+/*    top: 10px;*/
+/*    right: 100px;*/
+/*    font-weight: bold;*/
+/*}*/
 .menu {
     display: flex;
     flex-direction: row;
@@ -38,6 +43,7 @@ img {
     margin: 0 auto;
 }
 #sidebar {
+    font-family: "Roboto", sans-serif;
     background-color: aliceblue;
     margin-top: 10px;
     margin-right: 10px;
@@ -48,8 +54,15 @@ img {
 }
 
 .content {
-    margin-left: 130px;
+    margin-left: 230px;
     padding: 10px;
     text-align: center;
+    max-width:1564px
 }
+
+/*.w3-container {*/
+/*    width: 100%;*/
+/*}*/
+
+
 
