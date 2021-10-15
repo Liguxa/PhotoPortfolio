@@ -21,20 +21,6 @@ body,h1,h2,h3,h4,h5,h6 {
     font-size: 18px;
     border-radius: 1px;
 }
-
-#sidebar {
-    padding: 64px;
-}
-
-.login {
-  }
-/*img {*/
-/*    width: 700px;*/
-/*    height: 500px;*/
-/*    top: 10px;*/
-/*    right: 100px;*/
-/*    font-weight: bold;*/
-/*}*/
 .menu {
     display: flex;
     flex-direction: row;
@@ -49,7 +35,7 @@ body,h1,h2,h3,h4,h5,h6 {
     margin-right: 10px;
     padding: 0 10px;
     width: 200px;
-    height: 400px;
+    height: 200px;
     float: left;
 }
 
@@ -59,10 +45,6 @@ body,h1,h2,h3,h4,h5,h6 {
     text-align: center;
     max-width:1564px
 }
-
-/*.w3-container {*/
-/*    width: 100%;*/
-/*}*/
 
 
 
