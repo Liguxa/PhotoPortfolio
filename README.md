@@ -12,3 +12,4 @@ My first project
 6. Change a CSS file
 7. Add some photos
 8. Add content 
+9. Change a fixed sidebar 

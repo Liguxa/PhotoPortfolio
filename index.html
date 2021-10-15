@@ -9,27 +9,85 @@
     <link rel="stylesheet" href="./main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+   </head>
 <body>
-        <div class="header">
-            <nav class="menu">
-        <a href="#">Upload</a>
-        <a href="#">Settings</a>
-        <a href="#">Account</a>
-        </nav>
-              <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-padding-large w3-hover-white" title="My Account">
-                  <img src="/annaFirstProject/liguxa.png" class="w3-circle" style="height:23px;width:23px" alt="Avatar">
-              </a>
-        </div>
+    <div class="topnav" id="myTopnav">
+        <a href="#upload" class="active">Upload</a>
+        <a href="#settings">Settings</a>
+        <a href="#account">Account</a>
+        <input type="text" placeholder="Search..">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+         </a>
+         <img src="/annaFirstProject/liguxa.png" class="w3-circle" style="height:35px;width:35px" alt="Avatar">
+            </div>
 
-        <nav id="sidebar">
-            <p><a href="#"><span></span>Photo</a></p>
-            <p><a href="#"><span></span>Finder</a></p>
-            <p><a href="#"><span></span>Share albums</a></p>
-            <p><a href="#"><span></span>Tools</a></p>
-            <p><a href="#"><span></span>Bin</a></p>
-        </nav>
+
+    <div class="sidenav">
+  <a href="#">Photo</a>
+  <a href="#">Share albums</a>
+  <a href="#">Tools</a>
+  <a href="#">Bin</a>
+</div>
+
+    <div class="main">
+        <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 8</div>
+    <img src="/annaFirstProject/rio.jpg" style="width:100%">
+    <div class="text">Rio</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 8</div>
+    <img src="/annaFirstProject/valetta.jpg" style="width:100%">
+    <div class="text">Valetta</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 8</div>
+    <img src="/annaFirstProject/barcelona.jpg" style="width:80%">
+    <div class="text">Barcelona</div>
+  </div>
+            <div class="mySlides fade">
+    <div class="numbertext">4 / 8</div>
+   <img src="/annaFirstProject/dubai.jpeg" style="width:80%">
+    <div class="text">Dubai</div>
+  </div>
+             <div class="mySlides fade">
+    <div class="numbertext">5 / 8</div>
+   <img src="/annaFirstProject/hongkong.jpeg" style="width:80%">
+    <div class="text">Hongkong</div>
+  </div>
+             <div class="mySlides fade">
+    <div class="numbertext">6 / 8</div>
+   <img src="/annaFirstProject/ny.jpg" style="width:80%">
+    <div class="text">New York</div>
+  </div>
+             <div class="mySlides fade">
+    <div class="numbertext">7 / 8</div>
+   <img src="/annaFirstProject/paris.jpg" style="width:80%">
+    <div class="text">Paris</div>
+  </div>
+             <div class="mySlides fade">
+    <div class="numbertext">8 / 8</div>
+   <img src="/annaFirstProject/singapore.jpg" style="width:80%">
+    <div class="text">Singapore</div>
+  </div>
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+</div>
 
          <div class="w3-content w3-padding-large w3-margin-top" id="portfolio">
              <p><b>Today</b></p>
@@ -45,6 +103,7 @@
             <img src="/annaFirstProject/paris.jpg" alt="Paris" class="w3-image w3-margin-top" width="800" height="500">
             <img src="/annaFirstProject/singapore.jpg" alt="Singapore" class="w3-image w3-margin-top" width="800" height="500">
         </div>
+</div>
 
    <footer class="w3-container w3-center w3-opacity w3-margin-bottom">
   <h5>Follow Me On</h5>
@@ -54,7 +113,7 @@
         <i class="fa fa-linkedin w3-hover-opacity"></i>
         <i class="fa fa-github w3-hover-opacity"></i>
   </div>
- </footer>
+   </footer>
 <script src="index.js">
 </script>
   </body>
